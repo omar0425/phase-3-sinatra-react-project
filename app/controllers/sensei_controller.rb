@@ -1,0 +1,4 @@
+class SenseiController < ApplicationController
+
+
+end

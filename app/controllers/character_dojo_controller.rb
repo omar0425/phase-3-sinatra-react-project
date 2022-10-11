@@ -1,0 +1,3 @@
+class CharacterDojoController < ApplicationController
+
+end
