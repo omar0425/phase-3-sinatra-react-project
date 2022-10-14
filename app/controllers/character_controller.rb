@@ -1,3 +1,5 @@
+require 'pry'
+
 class CharacterController < ApplicationController
 # Just did this to test
   get "/characters" do
@@ -9,5 +11,7 @@ class CharacterController < ApplicationController
     character = Character.find(params[:id])
     character.to_json
   end
+
+
 
 end
