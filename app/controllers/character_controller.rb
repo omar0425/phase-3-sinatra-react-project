@@ -1,4 +1,3 @@
-require 'pry'
 
 class CharacterController < ApplicationController
 # Just did this to test

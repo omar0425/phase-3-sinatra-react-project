@@ -1,5 +1,7 @@
 class CharacterDojoController < ApplicationController
   # create a method that adds characters to dojo
+
+  
   
   get "/character_dojos" do
     character_dojos = CharacterDojo.all
@@ -11,6 +13,7 @@ class CharacterDojoController < ApplicationController
     character_dojo = CharacterDojo.create(
       character_id: params[:character_id],
       dojo_id: params[:dojo_id]
+      # params
     )
     character_dojo.to_json
     end
