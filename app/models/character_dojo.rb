@@ -1,10 +1,5 @@
 class CharacterDojo < ActiveRecord::Base
-   
-  
-  
   belongs_to :character
   belongs_to :dojo
-
-
-
-  end
+  validates :character_id, uniqueness: true
+end

@@ -15,7 +15,7 @@ c1 = Character.create(
   level: 10
 )
 c2 = Character.create(
-  name: " Daniel LaRusso",
+  name: "Daniel LaRusso",
   portrayed_by: "Ralph Macchio",
   image_url: "https://static.wikia.nocookie.net/thekaratekid/images/3/33/CK_Daniel_Infobox.jpg",
   level:10
@@ -27,7 +27,7 @@ c3 = Character.create(
   level: 8 
 )
 c4 = Character.create(
-  name: " Miguel Diaz",
+  name: "Miguel Diaz",
   portrayed_by: "Xolo Maridueña",
   image_url: "https://static.wikia.nocookie.net/thekaratekid/images/5/53/CK_Miguel_Infobox_Image.jpg",
   level:9
@@ -81,8 +81,5 @@ c12 = Character.create(
   level:10
 )
 
-# CharacterDojo.create(
-#   character_id: c1.id, 
-#   dojo_id: dojo2.id
-# )
+
 puts " 🪓Done Chopping!"
