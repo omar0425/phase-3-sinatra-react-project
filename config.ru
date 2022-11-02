@@ -13,7 +13,6 @@ use Rack::JSONBodyParser
 
 # Our application
 use CharacterController
-use CharacterDojoController
 use DojoController
 use SenseiController
 run ApplicationController

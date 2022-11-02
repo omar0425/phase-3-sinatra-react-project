@@ -10,14 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_10_11_022445) do
-
-  create_table "character_dojos", force: :cascade do |t|
-    t.integer "dojo_id"
-    t.integer "character_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
+ActiveRecord::Schema.define(version: 2022_11_01_191223) do
 
   create_table "characters", force: :cascade do |t|
     t.string "name"
@@ -26,6 +19,7 @@ ActiveRecord::Schema.define(version: 2022_10_11_022445) do
     t.integer "level"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "dojo_id"
   end
 
   create_table "dojos", force: :cascade do |t|
